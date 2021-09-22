@@ -92,6 +92,7 @@
     align-items: center;
     min-height: 8vh;
     background-color: rgba(0, 0, 0, 0.911);
+
 }
 
     .site-nav .item {
@@ -122,6 +123,15 @@
             margin: 0px;
         }
 
+  .site-nav a
+ {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
 
 /*.site-nav {
    list-style: none;
@@ -147,5 +157,5 @@
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
- }*/
+ }
 
