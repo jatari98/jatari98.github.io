@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+    font-size: 24px;
+    background-color: #222;
+    /*background-image: url('../data/stars_background.png');*/
+    background-repeat:repeat;
+}
+
+/* Main Styles */
+.main-article {
+    align-self: center;
+    background: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    width: auto;
+    max-width: 1300px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin: 0px auto;
+    padding: 100px;
+}
+.main-title {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    padding: 7.5% 6%;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-shadow: #000 5px 5px 50px;
+    -webkit-font-smoothing: antialiased;
+}
+    .main-title > h1 {
+        font-size: 48px;
+        color: rgb(0, 0, 0);
+        margin: 50px 0px;
+    }
+    .main-par {
+        text-indent: 40px;
+        text-align: justify;
+        line-height: 160%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        word-wrap: break-word;
+        font-size: 20px;
+        padding: 0px;
+        box-sizing: border-box;
+        width: 80%;
+        color: #000;
+    }
+        .main-par > b {
+            font-size: 22px;
+        }
+    .main-link{
+        text-decoration: underline;
+        text-decoration-color: #020;
+        color: #020;
+    }
+        .main-link:hover {
+            text-decoration-color: rgb(138, 16, 219);
+            color: rgb(138, 16, 219);
+        }
+        .main-link:active {
+            text-decoration-color: rgb(138, 16, 219);
+            color: rgb(138, 16, 219);
+        }
+    
+    
+    
+    /* Post Styles */
+    .post-thumbs {
+        width:100%;
+        height:auto;
+        float:left;
+    }
+        .post-thumbs > li {
+            background: #000;
+            background-size:auto 100%;
+            background-position:center;
+            width: 450px;
+            height: 300px;
+            background-repeat: no-repeat;
+            display: block;
+            float: left;
+            overflow: hidden;
+            margin: 20px;
+            -webkit-perspective: 500px;
+            box-sizing: border-box;
+            transition-duration: 0.4s;
+            transition-timing-function: ease-out;
+        }
+            .post-thumbs > li > div {
+                position: absolute;
+                background:#fff;
+                opacity:0.5;
+                width: 300px;
+                height: 0px;
+                font-size: 0px;
+                top: 300px;
+                transition-duration: 0.4s;
+                transition-timing-function: ease-out;
+            }
+            .post-thumbs > li:hover > div {
+                position: absolute;
+                width: 300px;
+                height: 70px;
+                top: 230px;
+                font-size: 24px;
+                transition-duration: 0.4s;
+                transition-timing-function: ease-out;
+            }
+                .post-thumbs > li:hover > div > a {
+                    text-shadow: #000 5px 5px 50px;
+                    text-decoration-color: #000;
+                    color: #000;
+                }
+                    .post-thumbs > li:hover > div > a:hover {
+                        text-shadow: rgb(0, 0, 0) 5px 5px 50px;
+                        text-decoration-color: rgb(0, 0, 0);
+                        color: rgb(0, 0, 0);
+                    }
+    
+                    .post-thumbs > li:hover > div > a:active {
+                        text-shadow: rgb(0, 0, 0) 5px 5px 50px;
+                        text-decoration-color: rgb(0, 0, 0);
+                        color: rgb(0, 0, 0)
+                    }
+    .main-media {
+        background: #000;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: center;
+        width: 500px;
+        height: 500px;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .separator{
+        margin: 50px 50px 
+}

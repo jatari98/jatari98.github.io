@@ -1,0 +1,13 @@
+﻿.footer-back {
+    background: #000;
+    width: 100%;
+    height: 50px;
+    /*padding: 50px 0px;*/
+    padding: 0px;
+    box-sizing: border-box;
+}
+    .footer-back > h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+    }
